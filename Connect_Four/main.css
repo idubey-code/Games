@@ -1,0 +1,47 @@
+body{
+  font-family: 'Goldman';
+  color: #FFE400;
+  background-color: #272727;
+}
+.body{
+  margin-top: 35px;
+}
+.logo{
+  padding-top: 20px;
+  padding-left: 30px;
+}
+button{
+  height: 80px;
+  width: 80px;
+  border: 3px solid black;
+  border-radius: 50px;
+  outline: none;
+  background-color: #747474;
+}
+button:hover{
+  cursor: pointer;
+}
+button:focus{
+  outline: none;
+}
+#player1{
+  color: #14A76C;
+}
+#player2{
+  color: #FF652F;
+}
+#left{
+  text-align: center;
+  padding-top: 110px;
+  padding-bottom: 80px;
+  font-size: 1.5em;
+}
+#right{
+  padding-top: 70px;
+  padding-left: 50px;
+  font-size: 1.2em;
+}
+#head{
+  text-align: center;
+  font-size: 2em;
+}

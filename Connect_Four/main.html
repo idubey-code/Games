@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <title>Connect Four</title>
+  </head>
+  <body>
+    <div class="logo">
+      <h1><img src="logo.png" alt="logo">&nbsp&nbsp<span style="color:#FF652F">Connect<span> <span style="color:#14A76C">Four<span></h1>
+    </div>
+    <div class = "body">
+      <p id="head">Let's get Started<p>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col" id="left">
+            <p id="player1">Player 1:</p>
+            <p id="player2">Player 2:</p>
+          </div>
+          <div class="col-md-auto" id="middle">
+            <table>
+              <tr>
+                <td><button class='1' type="button" name="button"></button></td>
+                <td><button class='2' type="button" name="button"></button></td>
+                <td><button class='3' type="button" name="button"></button></td>
+                <td><button class='4' type="button" name="button"></button></td>
+                <td><button class='5' type="button" name="button"></button></td>
+                <td><button class='6' type="button" name="button"></button></td>
+                <td><button class='7' type="button" name="button"></button></td>
+              </tr>
+              <tr>
+                <td><button class='1' type="button" name="button"></button></td>
+                <td><button class='2' type="button" name="button"></button></td>
+                <td><button class='3' type="button" name="button"></button></td>
+                <td><button class='4' type="button" name="button"></button></td>
+                <td><button class='5' type="button" name="button"></button></td>
+                <td><button class='6' type="button" name="button"></button></td>
+                <td><button class='7' type="button" name="button"></button></td>
+              </tr>
+              <tr>
+                <td><button class='1' type="button" name="button"></button></td>
+                <td><button class='2' type="button" name="button"></button></td>
+                <td><button class='3' type="button" name="button"></button></td>
+                <td><button class='4' type="button" name="button"></button></td>
+                <td><button class='5' type="button" name="button"></button></td>
+                <td><button class='6' type="button" name="button"></button></td>
+                <td><button class='7' type="button" name="button"></button></td>
+              </tr>
+              <tr>
+                <td><button class='1' type="button" name="button"></button></td>
+                <td><button class='2' type="button" name="button"></button></td>
+                <td><button class='3' type="button" name="button"></button></td>
+                <td><button class='4' type="button" name="button"></button></td>
+                <td><button class='5' type="button" name="button"></button></td>
+                <td><button class='6' type="button" name="button"></button></td>
+                <td><button class='7' type="button" name="button"></button></td>
+              </tr>
+              <tr>
+                <td><button class='1' type="button" name="button"></button></td>
+                <td><button class='2' type="button" name="button"></button></td>
+                <td><button class='3' type="button" name="button"></button></td>
+                <td><button class='4' type="button" name="button"></button></td>
+                <td><button class='5' type="button" name="button"></button></td>
+                <td><button class='6' type="button" name="button"></button></td>
+                <td><button class='7' type="button" name="button"></button></td>
+              </tr>
+              <tr>
+                <td><button class='1' type="button" name="button"></button></td>
+                <td><button class='2' type="button" name="button"></button></td>
+                <td><button class='3' type="button" name="button"></button></td>
+                <td><button class='4' type="button" name="button"></button></td>
+                <td><button class='5' type="button" name="button"></button></td>
+                <td><button class='6' type="button" name="button"></button></td>
+                <td><button class='7' type="button" name="button"></button></td>
+              </tr>
+            </table>
+          </div>
+          <div class="col" id="right">
+            <p>The objective of this game is to connect four of your chips in a row !</p>
+            <p>Refresh page to restart the game</p>
+            <p>Winning Conditions:</p>
+            <ul>
+              <li>Four chips connected Horizontally</li>
+              <li>Four chips connected Vertically</li>
+              <li>Four chips connected Diagonally</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src='jquery.js'></script>
+    <script type="text/javascript" src='main.js'></script>
+  </body>
+</html>
